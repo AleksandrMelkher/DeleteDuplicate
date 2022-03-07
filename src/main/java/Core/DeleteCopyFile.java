@@ -27,7 +27,7 @@ public class DeleteCopyFile {
     }
 
     public void deleteFiles() {
-        for (Path p : getFilesToDelete()) {
+        for (Path p : filesToDelete) {
             try {
                 Files.delete(p);
             } catch (IOException e) {
