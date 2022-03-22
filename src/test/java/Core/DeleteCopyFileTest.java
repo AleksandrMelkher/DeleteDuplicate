@@ -4,13 +4,17 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class BrowseDirectoryTest {
+class DeleteCopyFileTest {
 
     @Test
-    void getList() {
+    void deletionFiles() {
     }
 
     @Test
-    void openDir() {
+    void getFilesToDelete() {
+    }
+
+    @Test
+    void deleteFiles() {
     }
 }

@@ -4,13 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class BrowseDirectoryTest {
+class ControlTest {
 
     @Test
-    void getList() {
-    }
-
-    @Test
-    void openDir() {
+    void managing() {
     }
 }

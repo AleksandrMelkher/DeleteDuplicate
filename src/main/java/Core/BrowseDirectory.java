@@ -24,7 +24,7 @@ public class BrowseDirectory {
      * В метод передается директория в виде строки и все файлы из нее и из поддиректорий
      * помещаются в список list в виде объектов с полем sizeFile и nameFiles
      */
-    private void openDir(String directory) {
+    public void openDir(String directory) {
         Path file = Path.of(directory);
         try (var directoryStream = Files.newDirectoryStream(file)) {
             for (Path d : directoryStream) {
